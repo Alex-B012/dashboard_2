@@ -1,14 +1,14 @@
 import './sidebar.css'
 
+import SidebarLogo from './SidebarLogo/SidebarLogo';
+import SidebarLinks from './SidebarLinks/SidebarLinks';
+
 function Sidebar() {
    return (
       <aside className="sidebar__section" id="sidebar">
-         <div className="sidebar__logo">
-            <i className="sidebar__icon fas fa-code"></i>
-            <h2 className="sidebar__title">Dashboard</h2>
-         </div>
-         <div className="nav__title">Main Menu</div>
-         <div className="nav__links"></div>
+         <SidebarLogo />
+         <SidebarLinks data={"Main Menu"} />
+         <SidebarLinks data={"Team Members"} />
       </aside>
    )
 }

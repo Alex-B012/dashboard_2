@@ -1,0 +1,16 @@
+.sidebarLinks__title {
+   text-transform: uppercase;
+   font-size: 0.75rem;
+   font-weight: 600;
+   color: var(--gray);
+   padding: 1.5rem 1.5rem 0.5rem;
+   transition: all 0.5s ease;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+.sidebarLinks__links {
+   display: flex;
+   flex-direction: column;
+   padding: 0 1rem;
+}

@@ -6,10 +6,12 @@ import Home from './pages/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
 import Footer from './layouts/Footer/Footer';
 
+import { userProfile } from './data/data';
+
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header data={userProfile} />
       <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />

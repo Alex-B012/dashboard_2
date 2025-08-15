@@ -1,32 +1,28 @@
 import "./header.css";
+import HeaderNotification from "./HeaderNotification/HeaderNotification";
+import SearchBar from "./SearchBar/searchBar";
 
-function Header() {
+import { UserProfileInterface } from "../../types/interfaces";
+import MobileToggleBtn from "./MobileToggleBtn/MobileToggleBtn";
+import ThemeToggle from "./ThemeToggle/ThemeToggle";
+
+interface HeaderProp {
+   data: UserProfileInterface,
+}
+
+function Header({ data }: HeaderProp) {
    return (
       <header className="header__section">
          <div className=".header__left">
-            <button className="mobile__toggle" id="menuToggle">
-               <i className="mobile__icon fas fa-bars"></i>
-            </button>
-            <div className="searchBar__container">
-               <i className="searchBar__icon fas fa-search"></i>
-               <input className="searchBar__input" type="text" placeholder="Search..." />
-            </div>
+            <MobileToggleBtn />
+            <SearchBar />
          </div>
          <div className="header__right">
-            <button className="theme__toggle" id="themeToggle">
-               <i className="theme__icon fas fa-moon"></i>
-            </button>
-            <div className="notification__container">
-               <i className="notification__icon fas fa-bell"></i>
-               <span className="notification__badge">3</span>
-               <div className="userProfile__container">
-                  <img
-                     className="userProfile__img"
-                     src="assets/images/person_10.webp"
-                     alt="User profile"
-                  />
-               </div>
-            </div>
+            <ThemeToggle />
+            <HeaderNotification
+               messages_num={data.messages}
+               img_url={data.img.url}
+               img_alt={data.img.alt} />
          </div>
       </header>
    )

@@ -1,0 +1,25 @@
+.nav__item {
+   display: flex;
+   align-items: center;
+   padding: 0.9rem 1.5rem;
+   border-radius: 8px;
+   margin-bottom: 0.5rem;
+   color: #bbb;
+   text-decoration: none;
+   transition: all 0.5s ease;
+   font-weight: 500;
+   overflow: hidden;
+}
+
+.nav__item:hover, .nav__item.active {
+   background: rgba(67, 97, 238, 0.2);
+   color: white;
+}
+
+.nav__icon {
+   margin-right: 1rem;
+   font-size: 1.2rem;
+   min-width: 24px;
+   text-align: center;
+   transition: margin 0.5s ease;
+}

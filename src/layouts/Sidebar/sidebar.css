@@ -1,0 +1,13 @@
+.sidebar__section {
+   grid-area: sidebar;
+   background: var(--sidebar);
+   color: white;
+   padding: 1.5rem 0;
+   box-shadow: var(--card-shadow);
+   z-index: 200;
+   overflow-y: auto;
+   height: 100vh;
+   position: sticky;
+   top: 0;
+   transition: all 0.5s ease;
+}
