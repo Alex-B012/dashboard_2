@@ -29,3 +29,14 @@ export interface TeamMember {
    img: string,
    position: string
 }
+
+export interface CurrentProjectsInterface {
+   id: number,
+   name: string,
+   category: string,
+   completion: number,
+   weeks: number,
+   daysLeft: number,
+   teamMember: number[],
+   priority: number,
+}

@@ -1,0 +1,70 @@
+.projectCard__header {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-bottom: 1.2rem;
+}
+
+.projectCard__title h3 {
+   font-size: 1.2rem;
+   margin-bottom: 0.5rem;
+   color: var(--text-color);
+}
+
+/* Project Priority indicators */
+.projectCard__indicator {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   display: inline-block;
+   margin-right: 8px;
+}
+
+.projectCard__priority-high {
+   background-color: #ff6b6b;
+}
+
+.projectCard__priority-medium {
+   background-color: #ffd166;
+}
+
+.projectCard__priority-low {
+   background: #06d6a0;
+}
+
+.project__category {
+   display: inline-block;
+   padding: 0.3rem 0.8rem;
+   border-radius: 30px;
+   font-size: 0.8rem;
+   font-weight: 600;
+}
+
+/* Project Category Indicators */
+.projectCard__category-design {
+   background: rgba(72, 149, 239, 0.15);
+   color: var(--accent);
+}
+
+.projectCard__category-development {
+   background: rgba(247, 37, 133, 0.15);
+   color: var(--warning);
+}
+
+.projectCard__category-marketing {
+   background: rgba(76, 201, 240, 0.15);
+   color: var(--success);
+}
+
+.projectCard__time {
+   background: var(--time-bg);
+   padding: 0.4rem 0.8rem;
+   border-radius: 30px;
+   font-size: 0.9rem;
+   font-weight: 600;
+   color: var(--text-color);
+}
+
+.projectCard__icon {
+   margin-right: 5px;
+}

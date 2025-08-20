@@ -21,6 +21,9 @@ import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 import { faGear } from '@fortawesome/free-solid-svg-icons';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
 
 export const icons = {
    bars: faBars,
@@ -35,6 +38,9 @@ export const icons = {
    team: faPeopleGroup,
    reports: faChartPie,
    settings: faGear,
+   plus: faPlus,
+   arrowRight: faArrowRight,
+   clock: faClock,
 }
 
 export const sidebarNavLinks: SidebarNavLinksInterface[] = [
@@ -84,7 +90,7 @@ export const userProfile = {
    projects: 12,
    tasks: 24,
    success: 89,
-   deadlines: 2,
+   deadlines: 4,
    messages: 5,
 }
 

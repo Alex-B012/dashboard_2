@@ -1,0 +1,15 @@
+.profileInfo__section {
+   margin-bottom: 1.5rem;
+   width: 100%;
+}
+
+.profileInfo__fullName {
+   font-size: 1.4rem;
+   margin-bottom: 0.5rem;
+   color: var(--text-color);
+}
+
+.profileInfo__position {
+   color: var(--gray);
+   margin-bottom: 1rem;
+}

@@ -1,0 +1,12 @@
+.projectCard__section {
+   border-radius: 12px;
+   padding: 1.5rem;
+   transition: all 0.5s ease;
+   display: flex;
+   flex-direction: column;
+   height: 100%
+}
+
+.projectCard__section:hover {
+   transform: translateY(-5px);
+}

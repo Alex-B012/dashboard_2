@@ -1,0 +1,23 @@
+.projectFooter__section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: auto;
+}
+
+.projectFooter__teamAvatars {
+   display: flex;
+}
+
+.projectFooter__daysLeft {
+   background: var(--time-bg);
+   padding: 0.4rem 0.8rem;
+   border-radius: 30px;
+   font-size: -0.9rem;
+   font-weight: 600;
+   color: var(--text-color);
+}
+
+.projectFooter__icon {
+   margin-right: 5px;
+}

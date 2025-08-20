@@ -1,0 +1,11 @@
+.viewAll__link {
+   color: var(--view-all-color);
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.viewAll__icon {
+   font-size: 0.8rem;
+}

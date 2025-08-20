@@ -1,0 +1,23 @@
+.welcomeBanner__section {
+   grid-area: welcome;
+   background: linear-gradient(135deg, var(--primary), var(--secondary));
+   border-radius: 16px;
+   padding: 2rem;
+   color: white;
+   box-shadow: 0 10px 30px rgba(67, 97, 238, 0.3);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.welcomeBanner__h1 {
+   font-size: 1.8rem;
+   margin-bottom: 1rem;
+}
+
+.welcomeBanner__p {
+   opacity: 0.9;
+   margin-bottom: 1.5rem;
+   max-width: 600px;
+}

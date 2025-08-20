@@ -1,0 +1,27 @@
+.content {
+   grid-area: content;
+   padding: 2rem;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-template-rows: auto auto auto auto;
+   gap: 2rem;
+   grid-template-areas:
+      "welcome profile"
+      "project stats"
+      "timeline timeline"
+      "users users";
+}
+
+/** Cards **/
+.card {
+   background: var(--card-bg);
+   border-radius: 12px;
+   box-shadow: var(--var-shadow);
+   overflow: hidden;
+   transition: all 0.5s ease;
+}
+
+.card:hover {
+   transform: translateY(-5px);
+   box-shadow: var(--hover-shadow);
+}
