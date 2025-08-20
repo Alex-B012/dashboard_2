@@ -1,0 +1,9 @@
+.stats__section {
+   grid-area: stats;
+}
+
+.stats__grid {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 1.5rem;
+}

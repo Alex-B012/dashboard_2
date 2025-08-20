@@ -40,3 +40,27 @@ export interface CurrentProjectsInterface {
    teamMember: number[],
    priority: number,
 }
+
+export interface UserStatsProjectsCategory {
+   projects: number;
+   icon: IconDefinition;
+}
+
+export interface userStatsInterface {
+   total: UserStatsProjectsCategory,
+   inProgress: UserStatsProjectsCategory,
+   completed: UserStatsProjectsCategory,
+}
+
+export interface TaskStyleInterface {
+   width: string,
+   bg_color: string,
+}
+
+export interface TaskBarTaskInterface {
+   id: number,
+   taskName: string,
+   teamMember: number,
+   day: string,
+   style_data: TaskStyleInterface,
+}

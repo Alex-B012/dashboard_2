@@ -12,7 +12,7 @@ interface ViewAllBtnProp {
 function ViewAllBtn({ text, url = "#" }: ViewAllBtnProp) {
    return (
       <Link to={url} className="viewAll__link">
-         View All <FontAwesomeIcon icon={icons.arrowRight} className="viewAll__icon" />
+         {text} <FontAwesomeIcon icon={icons.arrowRight} className="viewAll__icon" />
       </Link>
    )
 }

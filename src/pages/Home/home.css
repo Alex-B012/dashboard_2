@@ -7,7 +7,7 @@
    gap: 2rem;
    grid-template-areas:
       "welcome profile"
-      "project stats"
+      "projects stats"
       "timeline timeline"
       "users users";
 }

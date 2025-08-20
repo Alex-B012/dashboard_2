@@ -7,7 +7,6 @@ import ethan_img from "../assets/images/person_8.webp";
 import alexander_img from "../assets/images/person_16.webp";
 import emily_img from "../assets/images/person_21.webp";
 
-
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
@@ -24,6 +23,10 @@ import { faGear } from '@fortawesome/free-solid-svg-icons';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
+
+import { faTasks } from '@fortawesome/free-solid-svg-icons';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 export const icons = {
    bars: faBars,
@@ -92,6 +95,20 @@ export const userProfile = {
    success: 89,
    deadlines: 4,
    messages: 5,
+}
+export const userStats = {
+   total: {
+      projects: 12,
+      icon: faTasks
+   },
+   inProgress: {
+      projects: 5,
+      icon: faSpinner,
+   },
+   completed: {
+      projects: 7,
+      icon: faCheckCircle,
+   },
 }
 
 export const team = [

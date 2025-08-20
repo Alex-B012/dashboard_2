@@ -1,0 +1,13 @@
+.timelineMarkers__list {
+   width: 100%;
+   position: absolute;
+   top: 0;
+}
+
+.timelineMarkers__marker {
+   position: absolute;
+   top: 0;
+   font-size: 0.9rem;
+   color: var(--gray);
+   margin-top: -2px;
+}

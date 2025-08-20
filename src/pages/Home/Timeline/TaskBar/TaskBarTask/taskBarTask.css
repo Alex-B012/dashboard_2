@@ -1,0 +1,65 @@
+.taskBar__task {
+   position: absolute;
+   top: 55px;
+   left: 0;
+   height: 30px;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   padding: 0 10px;
+   color: white;
+   font-size: 0.9rem;
+   font-weight: 500;
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+   transition: all 0.2s ease;
+}
+
+.taskBar__task:hover {
+   transform: scale(1.03);
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.taskBar__task-blue {
+   background: linear-gradient(135deg, #4361ee, #4895ef);
+}
+
+.taskBar__task-pink {
+   background: linear-gradient(135deg, #f72585, #ff6b96);
+}
+
+.taskBar__task-green {
+   background: linear-gradient(135deg, #4cc9f0, #70e4ff);
+}
+
+.taskBar__task-line2 {
+   top: 138px;
+}
+
+.taskBar__task-line3 {
+   top: 222px;
+}
+
+.taskBar__task-line4 {
+   top: 306px;
+}
+
+.taskBar__task-line5 {
+   top: 390px;
+}
+
+.taskBar__task-tue {
+   left: 200px;
+}
+
+.taskBar__task-wed {
+   left: 400px;
+}
+
+.taskBar__task-thu {
+   left: 600px;
+}
+
+.taskBar__task-fri {
+   left: 800px;
+}
