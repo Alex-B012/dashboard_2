@@ -17,6 +17,9 @@
    margin-bottom: 2rem;
 }
 
+.notFound__btn {
+   color: var(--view-all-color)
+}
 
 @media (max-width: 992px) {
    .notFound__title {

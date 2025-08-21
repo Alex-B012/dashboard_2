@@ -10,11 +10,12 @@ import Footer from './layouts/Footer/Footer';
 
 import { userProfile } from './data/data';
 import { ToggleMenuProvider } from './entities/toggleMenuContext';
+import TitleUpdater from './components/TitleUpdater/TitleUpdater';
 
 function App() {
-
   return (
     <div className="App">
+      <TitleUpdater />
       <ToggleMenuProvider>
         <MobileOverlay />
         <Header data={userProfile} />

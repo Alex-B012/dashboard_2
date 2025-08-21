@@ -11,7 +11,6 @@ function NotFound() {
                Return to Homepage
             </Link>
          </div>
-
       </main>
    )
 }
