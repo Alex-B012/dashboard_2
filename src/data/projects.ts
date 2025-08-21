@@ -30,7 +30,7 @@ export const currentProjects = [
       name: "Marketing Campaign",
       category: "Marketing",
       completion: 90,
-      weeks: 4,
+      weeks: 14,
       daysLeft: 5,
       teamMember: [3, 2, 5, 1],
       priority: 3,

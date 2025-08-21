@@ -11,8 +11,9 @@
 
 .projectFooter__daysLeft {
    background: var(--time-bg);
-   padding: 0.4rem 0.8rem;
+   padding: 0.3rem 0.7rem;
    border-radius: 30px;
+   font-size: 0.9rem;
    font-weight: 600;
    color: var(--text-color);
 }
@@ -22,13 +23,25 @@
 }
 
 @media (max-width: 992px) {
-   .projectFooter__daysLeft {
+   .projectFooter__icon {
       font-size: 0.9rem;
+      margin-right: 4px;
+   }
+
+   .projectFooter__daysLeft {
+      padding: 0.3rem 0.5rem;
+      font-size: 0.85rem;
    }
 }
 
 @media (max-width: 768px) {
+   .projectFooter__icon {
+      font-size: 0.8rem;
+      margin-right: 3px;
+   }
+
    .projectFooter__daysLeft {
+      padding: 0.2rem 0.4rem;
       font-size: 0.8rem;
    }
 }

@@ -56,17 +56,19 @@
    color: var(--success);
 }
 
+.projectCard__icon {
+   font-size: 0.9rem;
+   margin-right: 5px;
+}
+
 .projectCard__time {
    background: var(--time-bg);
-   padding: 0.4rem 0.8rem;
+   padding: 0.3rem 0.7rem;
    border-radius: 30px;
    font-size: 0.9rem;
    font-weight: 600;
    color: var(--text-color);
-}
-
-.projectCard__icon {
-   margin-right: 5px;
+   white-space: nowrap;
 }
 
 @media (max-width: 992px) {
@@ -84,8 +86,13 @@
       font-size: 0.75em;
    }
 
+   .projectCard__icon {
+      font-size: 0.8rem;
+      margin-right: 4px;
+   }
+
    .projectCard__time {
-      padding: 0.3rem 0.7rem;
+      padding: 0.3rem 0.5rem;
       font-size: 0.85rem;
    }
 }
@@ -105,8 +112,45 @@
       font-size: 0.7rem;
    }
 
-   .projectCard__time {
-      padding: 0.2rem 0.6rem;
+   .projectCard__icon {
       font-size: 0.8rem;
+      margin-right: 4px;
+   }
+
+   .projectCard__time {
+      padding: 0.2rem 0.5rem;
+      font-size: 0.8rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .projectCard__title h3 {
+      font-size: 1rem;
+   }
+
+   .projectCard__indicator {
+      width: 10px;
+      height: 10px;
+   }
+
+   .projectCard__category {
+      padding: 0.1rem 0.6rem;
+      font-size: 0.7rem;
+   }
+
+   .projectCard__icon {
+      font-size: 0.7rem;
+      margin-right: 3px;
+   }
+
+   .projectCard__time {
+      padding: 0.2rem 0.4rem;
+      font-size: 0.75rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .projectCard__time {
+      padding: 0.2rem 0.2rem 0.2rem 0.1rem;
    }
 }
