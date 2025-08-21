@@ -15,7 +15,7 @@ function ProfileStats({ projects, tasks, success }: ProfileStatsProp) {
          </div>
          <div className="profileStats__item">
             <span className="profileStats__value">{tasks}</span>
-            <span className="profileStats__label">tasks</span>
+            <span className="profileStats__label">Tasks</span>
          </div>
          <div className="profileStats__item">
             <span className="profileStats__value">{success}%</span>

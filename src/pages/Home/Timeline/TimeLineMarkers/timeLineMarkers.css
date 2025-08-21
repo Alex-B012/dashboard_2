@@ -11,3 +11,17 @@
    color: var(--gray);
    margin-top: -2px;
 }
+
+@media (max-width: 992px) {
+   .timelineMarkers__marker {
+      font-size: 0.85rem;
+      margin-top: -1px;
+   }
+}
+
+@media (max-width: 768px) {
+   .timelineMarkers__marker {
+      font-size: 0.8rem;
+      margin-top: 0;
+   }
+}

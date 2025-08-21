@@ -32,7 +32,7 @@
    background: #06d6a0;
 }
 
-.project__category {
+.projectCard__category {
    display: inline-block;
    padding: 0.3rem 0.8rem;
    border-radius: 30px;
@@ -67,4 +67,46 @@
 
 .projectCard__icon {
    margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+   .projectCard__title h3 {
+      font-size: 1.1rem;
+   }
+
+   .projectCard__indicator {
+      width: 11px;
+      height: 11px;
+   }
+
+   .projectCard__category {
+      padding: 0.2rem 0.7rem;
+      font-size: 0.75em;
+   }
+
+   .projectCard__time {
+      padding: 0.3rem 0.7rem;
+      font-size: 0.85rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .projectCard__title h3 {
+      font-size: 1rem;
+   }
+
+   .projectCard__indicator {
+      width: 10px;
+      height: 10px;
+   }
+
+   .projectCard__category {
+      padding: 0.1rem 0.6rem;
+      font-size: 0.7rem;
+   }
+
+   .projectCard__time {
+      padding: 0.2rem 0.6rem;
+      font-size: 0.8rem;
+   }
 }

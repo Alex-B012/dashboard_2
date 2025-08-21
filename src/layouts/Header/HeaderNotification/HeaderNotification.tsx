@@ -11,7 +11,7 @@ interface HeaderNotificationProp {
 function HeaderNotification({ messages_num, img_url, img_alt }: HeaderNotificationProp) {
    return (
       <div className="notification__container">
-         <i className="notification__icon fas fa-bell">
+         <i className="notification__icon">
             <FontAwesomeIcon icon={icons.bell} />
          </i>
          {messages_num > 0 && (

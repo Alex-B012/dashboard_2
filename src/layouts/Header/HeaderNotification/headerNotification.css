@@ -37,3 +37,25 @@
    border-radius: 50%;
    object-fit: cover;
 }
+
+@media (max-width: 768px) {
+   .notification__icon {
+      margin: 0 10px;
+      font-size: 0.9rem;
+      margin-bottom: -2px;
+   }
+
+   .notification__badge {
+      right: 27px;
+      font-size: 0.6rem;
+      width: 15px;
+      height: 15px;
+   }
+
+   .userProfile__img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      object-fit: cover;
+   }
+}

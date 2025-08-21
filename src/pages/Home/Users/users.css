@@ -7,3 +7,9 @@
    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
    gap: 1.5rem;
 }
+
+@media (max-width: 768px) {
+   .users__grid {
+      gap: 1.2rem;
+   }
+}

@@ -13,3 +13,13 @@
    color: var(--gray);
    margin-bottom: 1rem;
 }
+
+@media (max-width: 992px) {
+   .profileInfo__section {
+      margin-bottom: 0;
+   }
+
+   .profileInfo__position {
+      margin-bottom: 2rem;
+   }
+}

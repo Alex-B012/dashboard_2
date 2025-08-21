@@ -9,3 +9,15 @@
    font-size: 1.5rem;
    color: var(--text-color)
 }
+
+@media (max-width: 992px) {
+   .sectionTitle__title {
+      font-size: 1.35rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .sectionTitle__title {
+      font-size: 1.2rem;
+   }
+}

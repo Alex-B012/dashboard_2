@@ -6,13 +6,15 @@
    border-radius: 15px;
    display: flex;
    align-items: center;
-   padding: 0 10px;
+   padding: 0 25px 0 15px;
+   max-width: fit-content;
    color: white;
    font-size: 0.9rem;
    font-weight: 500;
    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
    cursor: pointer;
    transition: all 0.2s ease;
+   white-space: nowrap;
 }
 
 .taskBar__task:hover {
@@ -62,4 +64,86 @@
 
 .taskBar__task-fri {
    left: 800px;
+}
+
+@media (max-width: 992px) {
+   .taskBar__task {
+      top: 53px;
+      height: 27px;
+      padding: 0 22px 0 13px;
+      font-size: 0.85rem;
+   }
+
+   .taskBar__task-line2 {
+      top: 130px;
+   }
+
+   .taskBar__task-line3 {
+      top: 206px;
+   }
+
+   .taskBar__task-line4 {
+      top: 283px;
+   }
+
+   .taskBar__task-line5 {
+      top: 359px;
+   }
+
+   .taskBar__task-tue {
+      left: 190px;
+   }
+
+   .taskBar__task-wed {
+      left: 390px;
+   }
+
+   .taskBar__task-thu {
+      left: 590px;
+   }
+
+   .taskBar__task-fri {
+      left: 790px;
+   }
+}
+
+@media (max-width: 768px) {
+   .taskBar__task {
+      top: 52px;
+      height: 24px;
+      padding: 0 19px 0 11px;
+      font-size: 0.8rem;
+   }
+
+   .taskBar__task-line2 {
+      top: 121px;
+   }
+
+   .taskBar__task-line3 {
+      top: 190px;
+   }
+
+   .taskBar__task-line4 {
+      top: 260px;
+   }
+
+   .taskBar__task-line5 {
+      top: 330px;
+   }
+
+   .taskBar__task-tue {
+      left: 180px;
+   }
+
+   .taskBar__task-wed {
+      left: 380px;
+   }
+
+   .taskBar__task-thu {
+      left: 580px;
+   }
+
+   .taskBar__task-fri {
+      left: 780px;
+   }
 }

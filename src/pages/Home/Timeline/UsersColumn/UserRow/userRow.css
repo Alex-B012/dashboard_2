@@ -10,3 +10,27 @@
    font-weight: 600;
    color: var(--text-color);
 }
+
+@media (max-width: 992px) {
+   .userRow__container {
+      gap: 0.9rem;
+      height: 55px;
+   }
+
+   .userRow__name {
+      min-width: 95px;
+      font-size: 0.9rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .userRow__container {
+      gap: 0.8rem;
+      height: 50px;
+   }
+
+   .userRow__name {
+      min-width: 90px;
+      font-size: 0.8rem;
+   }
+}

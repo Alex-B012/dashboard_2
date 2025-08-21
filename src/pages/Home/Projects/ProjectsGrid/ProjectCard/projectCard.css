@@ -10,3 +10,15 @@
 .projectCard__section:hover {
    transform: translateY(-5px);
 }
+
+@media (max-width: 768px) {
+   .projectCard__section {
+      padding: 1rem;
+   }
+}
+
+@media (max-width: 500px) {
+   .projectCard__section {
+      padding: 0.5rem;
+   }
+}

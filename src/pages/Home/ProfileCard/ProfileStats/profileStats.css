@@ -21,3 +21,23 @@
    color: var(--gray);
    margin-top: 0.25rem;
 }
+
+@media (max-width: 992px) {
+   .profileStats__value {
+      font-size: 1.25rem;
+   }
+
+   .profileStats__label {
+      font-size: 0.8rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .profileStats__value {
+      font-size: 1.1rem;
+   }
+
+   .profileStats__label {
+      font-size: 0.75rem;
+   }
+}

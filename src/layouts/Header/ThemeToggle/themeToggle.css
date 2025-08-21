@@ -10,10 +10,25 @@
    border: none;
    cursor: pointer;
    transition: all 0.5s ease;
-   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .theme__toggle:hover {
    transform: translateY(-3px);
    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.theme__icon {
+   font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+   .theme__toggle {
+      width: 30px;
+      height: 30px;
+   }
+
+   .theme__icon {
+      font-size: 0.8rem;
+   }
 }

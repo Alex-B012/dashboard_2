@@ -44,7 +44,7 @@ export const taskBar_tasks = [
       teamMember: 1,
       day: "Mon",
       style_data: {
-         width: "120px",
+         width: "130px",
          bg_color: "blue"
       }
    }, {

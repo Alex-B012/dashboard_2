@@ -13,11 +13,22 @@
    background: var(--time-bg);
    padding: 0.4rem 0.8rem;
    border-radius: 30px;
-   font-size: -0.9rem;
    font-weight: 600;
    color: var(--text-color);
 }
 
 .projectFooter__icon {
    margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+   .projectFooter__daysLeft {
+      font-size: 0.9rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .projectFooter__daysLeft {
+      font-size: 0.8rem;
+   }
 }

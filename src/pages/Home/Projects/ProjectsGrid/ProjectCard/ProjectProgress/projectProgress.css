@@ -34,3 +34,25 @@
 .projectProgress__marketing {
    background: linear-gradient(to right, var(--success), #70e4ff);
 }
+
+@media (max-width: 992px) {
+   .projectProgress__info {
+      margin-bottom: 0.45rem;
+      font-size: 0.85rem;
+   }
+
+   .projectProgress__bar {
+      height: 7px;
+   }
+}
+
+@media (max-width: 768px) {
+   .projectProgress__info {
+      margin-bottom: 0.4rem;
+      font-size: 0.8rem;
+   }
+
+   .projectProgress__bar {
+      height: 6px;
+   }
+}

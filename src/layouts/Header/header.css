@@ -24,5 +24,6 @@
 @media (max-width: 768px) {
    .header__section {
       padding: 0 1rem;
+      min-height: 40px;
    }
 }
