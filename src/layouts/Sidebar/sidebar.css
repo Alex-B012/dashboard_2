@@ -29,7 +29,7 @@
       transition: left 0.5s ease;
    }
 
-   .sidebar__section.active {
+   .sidebar__section-active {
       left: 0;
    }
 }

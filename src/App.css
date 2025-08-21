@@ -90,9 +90,4 @@ body {
       "content"
       "footer";
   }
-
-  .mobile__overlay.active {
-    display: block;
-    opacity: 1;
-  }
 }
