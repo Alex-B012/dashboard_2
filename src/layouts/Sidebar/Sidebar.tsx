@@ -1,12 +1,11 @@
 import './sidebar.css'
 import SidebarLogo from './SidebarLogo/SidebarLogo';
 import SidebarLinks from './SidebarLinks/SidebarLinks';
+import { useContext } from 'react';
+import { OpenMenuContext } from '../../entities/toggleMenuContext';
 
-interface SidebarProp {
-   isOpen: boolean,
-}
-
-function Sidebar({ isOpen }: SidebarProp) {
+function Sidebar() {
+   const { isOpen } = useContext(OpenMenuContext);
    const sidebarActive = isOpen ? 'sidebar__section-active' : '';
    return (
       <aside className={`sidebar__section ${sidebarActive}`} id="sidebar">

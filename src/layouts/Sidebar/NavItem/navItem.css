@@ -11,7 +11,7 @@
    overflow: hidden;
 }
 
-.nav__item:hover, .nav__item.active {
+.nav__item:hover, .nav__item-active {
    background: rgba(67, 97, 238, 0.2);
    color: white;
 }

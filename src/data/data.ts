@@ -9,6 +9,7 @@ import emily_img from "../assets/images/person_21.webp";
 
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
@@ -30,6 +31,7 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 export const icons = {
    bars: faBars,
+   close: faClose,
    search: faMagnifyingGlass,
    sun: faSun,
    moon: faMoon,
@@ -77,7 +79,7 @@ export const sidebarNavLinks: SidebarNavLinksInterface[] = [
       id: 6,
       link: "/settings",
       icon: icons.settings,
-      name: "Dashboard",
+      name: "Settings",
    }
 ]
 

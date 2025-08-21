@@ -1,14 +1,12 @@
+import { useContext } from 'react';
 import './mobileOverlay.css'
+import { OpenMenuContext } from '../../entities/toggleMenuContext';
 
-interface MobileOverlayProp {
-   isOpen: boolean,
-}
-
-function MobileOverlay({ isOpen }: MobileOverlayProp) {
+function MobileOverlay() {
+   const { isOpen, setIsOpen } = useContext(OpenMenuContext);
    const mobileOverlay = isOpen ? 'mobile__overlay-active' : '';
    return (
-
-      <div className={`mobile__overlay ${mobileOverlay}`} id="mobileOverlay"></div>
+      <div className={`mobile__overlay ${mobileOverlay}`} id="mobileOverlay" onClick={() => setIsOpen(!isOpen)}></div>
    )
 }
 
