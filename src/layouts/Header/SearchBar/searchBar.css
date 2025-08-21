@@ -19,3 +19,20 @@
    font-size: 0.9rem;
    color: var(--text-color);
 }
+
+@media (max-width: 768px) {
+   .searchBar__container {
+      width: 200px;
+   }
+
+   .searchBar__input {
+      padding: 0.1rem 0.5rem;
+      height: 0.7rem;
+   }
+}
+
+@media (max-width: 576px) {
+   .searchBar__container {
+      display: none;
+   }
+}

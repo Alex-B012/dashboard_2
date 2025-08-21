@@ -13,7 +13,7 @@ interface HeaderProp {
 function Header({ data }: HeaderProp) {
    return (
       <header className="header__section">
-         <div className=".header__left">
+         <div className="header__left">
             <MobileToggleBtn />
             <SearchBar />
          </div>

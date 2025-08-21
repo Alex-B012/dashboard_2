@@ -13,7 +13,7 @@ function TeamItem({ member }: TeamItemProp) {
             alt={member.name}
             className="member__avatar"
          />
-         <span>{member.name}</span>
+         <span className="team__memberName">{member.name}</span>
       </div>
    )
 }

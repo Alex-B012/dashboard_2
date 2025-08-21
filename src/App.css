@@ -68,3 +68,31 @@ body {
   min-height: 100vh;
   transition: all 0.5s ease;
 }
+
+/* RESPONSIVE DESIGNS (MEDIA-QUERIES)*/
+/* Tablet view: Sidebar minimized to icons only */
+@media (min-width: 769px) and (max-width: 1200px) {
+  :root {
+    --sidebar-width: var(--sidebar-minimized-width);
+  }
+
+  .App {
+    grid-template-columns: var(--sidebar-minimized-width) 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header"
+      "content"
+      "footer";
+  }
+
+  .mobile__overlay.active {
+    display: block;
+    opacity: 1;
+  }
+}

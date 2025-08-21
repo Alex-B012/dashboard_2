@@ -11,3 +11,9 @@
    height: 1px;
    background: var(--grid-line);
 }
+
+@media (max-width: 576px) {
+   .timeLineGrid__container {
+      min-width: 500px;
+   }
+}

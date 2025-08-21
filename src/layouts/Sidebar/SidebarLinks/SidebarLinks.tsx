@@ -4,16 +4,14 @@ import './sidebarLinks.css'
 import { sidebarNavLinks, team } from '../../../data/data';
 import TeamItem from '../TeamItem/TeamItem';
 
-
-
 interface SidebarLinksProp {
    data: string;
 }
 
 function SidebarLinks({ data }: SidebarLinksProp) {
-
    const location = useLocation();
    const path = location.pathname;
+
    return (
       <div className="sidebarMainMenu__container">
          <div className="sidebarLinks__title">{data}</div>
@@ -29,7 +27,6 @@ function SidebarLinks({ data }: SidebarLinksProp) {
                   <TeamItem member={item} key={item.id} />
                ))
             )}
-
          </div>
       </div>
    )

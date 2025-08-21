@@ -25,3 +25,23 @@
    transform: translateY(-5px);
    box-shadow: var(--hover-shadow);
 }
+
+/* Responsive Design */
+@media (max-width: 992px) {
+   .content {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+         "welcome"
+         "profile"
+         "projects"
+         "stats"
+         "timeline"
+         "users";
+   }
+}
+
+@media (max-width: 576px) {
+   .content {
+      padding: 1.5rem 1rem;
+   }
+}

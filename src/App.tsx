@@ -11,6 +11,7 @@ import { userProfile } from './data/data';
 function App() {
   return (
     <div className="App">
+      <div className='mobile__overlay' id="mobileOverlay"></div>
       <Header data={userProfile} />
       <Sidebar />
       <Routes>

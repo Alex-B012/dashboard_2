@@ -17,7 +17,7 @@ function NavItem({ data, active }: NavItemProp) {
          <i className="nav__icon">
             <FontAwesomeIcon icon={data.icon} />
          </i>
-         <span>{data.name}</span>
+         <span className='nav__itemName'>{data.name}</span>
       </Link>
    )
 }

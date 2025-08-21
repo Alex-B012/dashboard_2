@@ -22,3 +22,14 @@
    overflow: hidden;
    white-space: nowrap;
 }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+   .sidebar__logo {
+      padding: 0 0.5rem 1.5rem;
+      justify-content: center;
+   }
+
+   .sidebar__logoTitle {
+      display: none;
+   }
+}

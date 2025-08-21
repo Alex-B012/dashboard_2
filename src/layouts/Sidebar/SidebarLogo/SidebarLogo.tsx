@@ -5,7 +5,7 @@ import { icons } from '../../../data/data'
 function SidebarLogo() {
    return (
       <div className="sidebar__logo">
-         <i className="sidebar__logoIcon fas fa-code">
+         <i className="sidebar__logoIcon">
             <FontAwesomeIcon icon={icons.code} />
          </i>
          <h2 className="sidebar__logoTitle">Dashboard</h2>

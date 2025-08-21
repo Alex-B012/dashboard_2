@@ -6,3 +6,15 @@
    cursor: pointer;
    color: var(--text-color);
 }
+
+@media (min-width: 769px) and (max-width: 1200px) {
+   .mobile__icon {
+      transform: rotate(180deg);
+   }
+}
+
+@media (max-width: 768px) {
+   .mobile__toggle {
+      display: block;
+   }
+}
