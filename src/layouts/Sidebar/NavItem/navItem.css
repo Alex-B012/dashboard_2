@@ -40,3 +40,9 @@
       display: none;
    }
 }
+
+@media (max-width: 769px) {
+   .nav__itemName {
+      font-size: 0.95rem;
+   }
+}

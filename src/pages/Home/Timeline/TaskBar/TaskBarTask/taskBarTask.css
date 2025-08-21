@@ -1,7 +1,7 @@
 .taskBar__task {
    position: absolute;
    top: 55px;
-   left: 0;
+   left: 2px;
    height: 30px;
    border-radius: 15px;
    display: flex;
@@ -20,6 +20,7 @@
 .taskBar__task:hover {
    transform: scale(1.03);
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+   z-index: 10;
 }
 
 .taskBar__task-blue {

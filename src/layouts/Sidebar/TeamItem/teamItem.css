@@ -42,3 +42,13 @@
       display: none;
    }
 }
+
+@media (max-width: 769px) {
+   .team__member {
+      padding: 0.5rem;
+   }
+
+   .team__memberName {
+      font-size: 0.95rem;
+   }
+}

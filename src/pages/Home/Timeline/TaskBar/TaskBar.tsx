@@ -5,7 +5,7 @@ import TaskBarTask from './TaskBarTask/TaskBarTask'
 function TaskBar() {
    return (
       <div className='taskBar__container'>
-         {taskBar_tasks.map((task) => <TaskBarTask task={task} />)}
+         {taskBar_tasks.map((task) => <TaskBarTask task={task} key={task.id} />)}
       </div >
    )
 }

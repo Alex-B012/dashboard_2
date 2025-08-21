@@ -28,11 +28,10 @@
 
 .progressRing__text {
    position: absolute;
-   top: 50%;
+   top: 25%;
    left: 50%;
    transform: translate(-50%, -50%);
    font-size: 1.2rem;
    font-weight: 700;
    color: var(--text-color);
-   margin-top: -3rem;
 }
