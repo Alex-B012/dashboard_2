@@ -1,4 +1,4 @@
 Link:
-https://techhive-zesty-cascaron-23aca78723104.netlify.app
+dashboard-73289573487-syrniki-10593fa.netlify.app
 
 TypeScript, React, JavaScript, HTML, CSS, Fontawesome icons
