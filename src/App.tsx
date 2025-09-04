@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import MobileOverlay from './components/MobileOverlay/MobileOverlay';
+import MobileOverlay from './components/MobileOverlay/MobileOverlay'
 import Header from './layouts/Header/Header';
 import Sidebar from './layouts/Sidebar/Sidebar';
 import Home from './pages/Home/Home';
